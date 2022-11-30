@@ -10,6 +10,12 @@ public class Main {
         System.out.println("задание 7");
         System.out.println("разница весов двух бойцов(1 способ) " + (boxer2Weight - boxer1Weight));
         System.out.println("разница весов двух бойцов(2 способ) " + (boxer2Weight - boxer1Weight));
+        // задание 8
+        System.out.println("задание 8");
+        var totalWorkingHours = 640;
+        var hoursPerDay = 8;
+        System.out.println("всего работников в компании - " + totalWorkingHours / hoursPerDay + " человек");
+
 
 
     }
