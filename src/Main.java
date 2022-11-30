@@ -14,7 +14,12 @@ public class Main {
         System.out.println("задание 8");
         var totalWorkingHours = 640;
         var hoursPerDay = 8;
-        System.out.println("всего работников в компании - " + totalWorkingHours / hoursPerDay + " человек");
+        var totalEmployees = totalWorkingHours / hoursPerDay;
+        System.out.println("всего работников в компании - " + totalEmployees + " человек");
+        totalEmployees = totalEmployees + 94;
+        totalWorkingHours = totalEmployees * hoursPerDay;
+        System.out.println("если в компании работает " + totalEmployees + " человека, то всего "+ totalWorkingHours +" часа может быть поделено между сотрудниками");
+
 
 
 
